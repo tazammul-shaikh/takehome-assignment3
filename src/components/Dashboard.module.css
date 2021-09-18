@@ -1,0 +1,65 @@
+.inputBlock{
+    padding:2px;
+}
+
+.input{
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid grey;
+    display: inline-block;
+    width: 300px;
+}
+
+.button{
+    padding: 8px 16px;
+    background: #6E55D4;
+    border: none;
+    border-radius: 4px;
+    margin-left: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin:16px 0;
+  }
+  
+  .table td, .table th {
+    padding: 12px;
+  }
+  
+  .table tr{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+    text-align: center;
+    background-color: #c5bbee;
+    color: #4d3b94;
+  }
+
+  .pageButton{
+      padding: 6px 16px;
+      margin: 0 4px;
+      background: #6E55D4;
+      color:white;
+      border:none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  .pageButton:disabled{
+        background: #b7aaea;
+        cursor: default;
+    }
+
+    .pageText{
+        margin:0 4px
+    }
